@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="module">
+        <span class="title">Урок 8</span>
+        
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1/3</div>
+                    <img src="img/image.jpg" style="width:100%" alt="">
+                    <div class="text">text</div>
+                </div>
+        
+                <div class="mySlides fade">
+                       <div class="numbertext">2/3</div>
+                       <img src="img/image-3.jpg" style="width:100%" alt="">
+                       <div class="text">text</div>
+                </div>
+                <div class="mySlides fade">
+                       <div class="numbertext">3/3</div>
+                       <img src="img/image.jpg" style="width:100%" alt="">
+                       <div class="text">text</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <br>
+        
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <div class="module">
+            <span class="title">Урок 9</span>
+            <input type="text" onkeyup="myFunctionFirst()" id="myInput" placeholder="Search of names">
+            <ul id="myUL">
+                <li><a href="" class="header">A</a></li>
+                <li><a href="">Anton</a></li>
+                <li><a href="">Andrey</a></li>
+                <li><a href="" class="header">B</a></li>
+                <li><a href="">Bogdan</a></li>
+                <li><a href="">Bill</a></li>
+                <li><a href="">Boris</a></li>
+                <li><a href="" class="header">C</a></li>
+                <li><a href="">Calvin</a></li>
+                <li><a href="">Christina</a></li>
+            </ul>
+        </div>
+        <div class="module">
+            <span class="title">Урок 10</span>
+            <p>Число 1: <input type="text" id="n1"></p>
+            <p>Число 2: <input type="text" id="n2"></p>
+        
+            <button onclick="plus()">+</button>
+            <button onclick="minus()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="share()">/</button>
+        
+        
+        
+            <hr>
+            <p id="out">Ответ:</p>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
